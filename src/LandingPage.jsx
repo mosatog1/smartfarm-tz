@@ -121,23 +121,23 @@ export default function LandingPage() {
               Home
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="/weather" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+            <a href="/smartfarm-tz/weather" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
               Weather
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+            <a href="/smartfarm-tz/marketplace" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
               Marketplace
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+            <a href="/smartfarm-tz/academy" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
               Academy
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+            <a href="/smartfarm-tz/crop-health" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
               Crop Health
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+            <a href="/smartfarm-tz/chat" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
               Chat
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
@@ -183,19 +183,19 @@ export default function LandingPage() {
                 <a href="/" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Home
                 </a>
-                <a href="/weather" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                <a href="/smartfarm-tz/weather" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Weather
                 </a>
-                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                <a href="/smartfarm-tz/marketplace" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Marketplace
                 </a>
-                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                <a href="/smartfarm-tz/academy" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Academy
                 </a>
-                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                <a href="/smartfarm-tz/crop-health" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Crop Health
                 </a>
-                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                <a href="/smartfarm-tz/chat" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Chat
                 </a>
                 <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
