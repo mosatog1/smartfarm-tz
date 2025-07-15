@@ -141,6 +141,14 @@ export default function LandingPage() {
               Chat
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </a>
+            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+              Transport
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#" className="text-white/90 hover:text-white transition-colors duration-200 relative group">
+              Loan
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            </a>
             <a href="#" className="px-3 py-1 bg-green-600/90 rounded-lg text-white hover:bg-green-700 transition-colors duration-200">
               Login
             </a>
@@ -189,6 +197,12 @@ export default function LandingPage() {
                 </a>
                 <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
                   Chat
+                </a>
+                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                  Transport
+                </a>
+                <a href="#" className="text-white py-2 px-3 rounded-lg hover:bg-white/10" onClick={toggleMobileMenu}>
+                  Loan
                 </a>
                 <a href="#" className="mt-4 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700" onClick={toggleMobileMenu}>
                   Login
