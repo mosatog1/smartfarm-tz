@@ -6,7 +6,7 @@ import WeatherPage from './pages/WeatherPage';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/smartfarm-tz">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/weather" element={<WeatherPage />} />
